@@ -13,7 +13,7 @@ class CreateCampbenefitsTable extends Migration
      */
     public function up()
     {
-        Schema::create('campbenefits', function (Blueprint $table) {
+        Schema::create('campBenefits', function (Blueprint $table) {
             $table->id();
             $table->BigInteger('camp_id')->unsigned();
             $table->string('name');
@@ -32,6 +32,6 @@ class CreateCampbenefitsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('campbenefits');
+        Schema::dropIfExists('campBenefits');
     }
 }

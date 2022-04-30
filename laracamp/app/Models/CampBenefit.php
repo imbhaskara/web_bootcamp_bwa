@@ -6,11 +6,14 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class campbenefits extends Model
+class CampBenefit extends Model
 {
     use HasFactory, SoftDeletes;
 
+    public $table = 'campBenefits';
+
     protected $fillable = [
+        'camp_id',
         'name',
     ]; 
 }
