@@ -23,6 +23,8 @@ class AdminUserSeeder extends Seeder
                 'email_verified_at' => date('Y-m-d H:i:s',time()),
                 'password' => \bcrypt('PasswordAdminLaracamp'),
                 'is_admin' => true,
+                'created_at' => date('Y-m-d H:i:s', time()),
+                'updated_at' => date('Y-m-d H:i:s', time()),
             ]
         );
     }
