@@ -387,4 +387,8 @@ body {
 .navbar .navbar-brand img {
   height: 42px;
 }
+
+.user-photo {
+  border-radius:50px
+}
 /*# sourceMappingURL=main.css.map */
