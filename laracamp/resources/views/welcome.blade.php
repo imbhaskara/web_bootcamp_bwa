@@ -198,7 +198,7 @@
                                     $280K
                                 </h1>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="{{ asset('images/ic_check.') }}svg" alt="">
+                                    <img src="{{ asset('images/ic_check.svg') }}" alt="">
                                     <p>
                                         Pro Techstack Kit
                                     </p>
@@ -206,7 +206,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="{{ asset('images/ic_check.') }}svg" alt="">
+                                    <img src="{{ asset('images/ic_check.svg') }}" alt="">
                                     <p>
                                         iMac Pro 2021 & Display
                                     </p>
@@ -214,7 +214,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="{{ asset('images/ic_check.') }}svg" alt="">
+                                    <img src="{{ asset('images/ic_check.svg') }}" alt="">
                                     <p>
                                         1-1 Mentoring Program
                                     </p>
@@ -222,7 +222,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="{{ asset('images/ic_check.') }}svg" alt="">
+                                    <img src="{{ asset('images/ic_check.svg') }}" alt="">
                                     <p>
                                         Final Project Certificate
                                     </p>
@@ -230,7 +230,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="{{ asset('images/ic_check.') }}svg" alt="">
+                                    <img src="{{ asset('images/ic_check.svg') }}" alt="">
                                     <p>
                                         Offline Course Videos
                                     </p>
@@ -238,7 +238,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="{{ asset('images/ic_check.') }}svg" alt="">
+                                    <img src="{{ asset('images/ic_check.svg') }}" alt="">
                                     <p>
                                         Future Job Opportinity
                                     </p>
@@ -246,7 +246,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="{{ asset('images/ic_check.') }}svg" alt="">
+                                    <img src="{{ asset('images/ic_check.svg') }}" alt="">
                                     <p>
                                         Premium Design Kit
                                     </p>
@@ -254,7 +254,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <div class="item-benefit-pricing">
-                                    <img src="{{ asset('images/ic_check.') }}svg" alt="">
+                                    <img src="{{ asset('images/ic_check.svg') }}" alt="">
                                     <p>
                                         Website Builder
                                     </p>
@@ -276,7 +276,7 @@
                                     $140K
                                 </h1>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="{{ asset('images/ic_check.') }}svg" alt="">
+                                    <img src="{{ asset('images/ic_check.svg') }}" alt="">
                                     <p>
                                         1-1 Mentoring Program
                                     </p>
@@ -284,7 +284,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="{{ asset('images/ic_check.') }}svg" alt="">
+                                    <img src="{{ asset('images/ic_check.svg') }}" alt="">
                                     <p>
                                         Final Project Certificate
                                     </p>
@@ -292,7 +292,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <div class="item-benefit-pricing mb-4">
-                                    <img src="{{ asset('images/ic_check.') }}svg" alt="">
+                                    <img src="{{ asset('images/ic_check.svg') }}" alt="">
                                     <p>
                                         Offline Course Videos
                                     </p>
@@ -300,7 +300,7 @@
                                     <div class="divider"></div>
                                 </div>
                                 <div class="item-benefit-pricing">
-                                    <img src="{{ asset('images/ic_check.') }}svg" alt="">
+                                    <img src="{{ asset('images/ic_check.svg') }}" alt="">
                                     <p>
                                         Future Job Opportinity
                                     </p>
@@ -318,7 +318,7 @@
             </div>
             <div class="row pb-70">
                 <div class="col-lg-12 col-12 text-center">
-                    <img src="{{ asset('images/brands.pn') }}g" height="30" alt="">
+                    <img src="{{ asset('images/brands.png') }}" height="30" alt="">
                 </div>
             </div>
         </div>
