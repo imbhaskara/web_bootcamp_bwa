@@ -8,6 +8,9 @@ use Illuminate\Http\Request;
 // Import Our models
 use App\Models\Checkout;
 use App\Models\Camp;
+
+//Import Request untuk validasi
+use App\Http\Requests\User\Checkout\Store;
 use Auth;
 
 class CheckoutController extends Controller
@@ -44,9 +47,9 @@ class CheckoutController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request, Camp $camps)
+    public function store(Store $request, Camp $camps)
     {
-        
+        return $request->all();
         //Mapping request data from frontend
         $data = $request->all();
         $data['user_id'] = Auth::id();
