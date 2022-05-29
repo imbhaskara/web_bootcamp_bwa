@@ -32,7 +32,7 @@
                                 @csrf
                                 <div class="mb-4">
                                     <label class="form-label">Full Name</label>
-                                    <input name='name' type="text" class="form-control" value={{ Auth::user()->name }}
+                                    <input name='name' type="text" class="form-control" value={{ Auth::user()->name }}>
                                 </div>
                                 <div class="mb-4">
                                     <label class="form-label">Email Address</label>
@@ -54,7 +54,7 @@
                                         </div>
                                         <div class="col-lg-6 col-12">
                                             <label class="form-label">CVV</label>
-                                            <input name='cvv' type="number" class="form-control" maxlength="3">
+                                            <input name='cvv' oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" type="number" class="form-control" maxlength="3">
                                         </div>
                                     </div>
                                 </div>
