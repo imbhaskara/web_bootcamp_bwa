@@ -32,7 +32,7 @@
                                 @csrf
                                 <div class="mb-4">
                                     <label class="form-label">Full Name</label>
-                                    <input name='name' type="text" class="form-control {{ $errors->has('name') ? 'is-invalid' : '' }}" value={{ Auth::user()->name }} required>
+                                    <input name='name' type="text" class="form-control {{ $errors->has('name') ? 'is-invalid' : '' }}" value={{ old('name') ?: Auth::user()->name }} required>
                                     @if ($errors->has('name'))
                                         <p class="text-danger">{{ $errors->first('name') }}</p>
                                     @endif
@@ -62,11 +62,17 @@
                                     <div class="row">
                                         <div class="col-lg-6 col-12">
                                             <label class="form-label">Expired</label>
-                                            <input name='expired' type="month" class="form-control">
+                                            <input name='expired' type="month" class="form-control {{ $errors->has('expired') ? 'is-invalid' : '' }}" value={{ old('expired') ?: '' }} required>
+                                            @if ($errors->has('expired'))
+                                                <p class="text-danger">{{ $errors->first('expired') }}</p>
+                                            @endif
                                         </div>
                                         <div class="col-lg-6 col-12">
                                             <label class="form-label">CVV</label>
-                                            <input name='cvv' oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" type="number" class="form-control" maxlength="3">
+                                            <input name='cvv' oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" type="number" class="form-control {{ $errors->has('cvv') ? 'is-invalid' : '' }}" maxlength="3">
+                                            @if ($errors->has('cvv'))
+                                                <p class="text-danger">{{ $errors->first('cvv') }}</p>
+                                            @endif
                                         </div>
                                     </div>
                                 </div>
